@@ -4,6 +4,9 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Company>Manage4US LLC</Company>
+    <Description>Allows applications to push events to Manage4US queues and topics</Description>
+    <Authors>Michael Prado</Authors>
   </PropertyGroup>
 
   <ItemGroup>
