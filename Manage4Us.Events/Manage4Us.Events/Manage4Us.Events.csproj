@@ -2,6 +2,7 @@
 
 	<PropertyGroup>
 		<NuspecFile>Manage4Us.Events.nuspec</NuspecFile>
+		<PackageVersion>$([System.DateTime]::Now.ToString("yyyy.MM.dd.HHmmss"))</PackageVersion>
 	</PropertyGroup>
 	
 	<PropertyGroup>
