@@ -1,24 +1,28 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <Company>Manage4US LLC</Company>
-    <Description>Allows applications to push events to Manage4US queues and topics</Description>
-    <Authors>Michael Prado</Authors>
-  </PropertyGroup>
+	<PropertyGroup>
+		<NuspecFile>Manage4Us.Events.nuspec</NuspecFile>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Company>Manage4US LLC</Company>
+		<Description>Allows applications to push events to Manage4US queues and topics</Description>
+		<Authors>Michael Prado</Authors>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Domain\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="Domain\" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.16.1" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Azure.Messaging.ServiceBus" Version="7.16.1" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Manage4Us.Events.Domain\Manage4Us.Events.Domain.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Manage4Us.Events.Domain\Manage4Us.Events.Domain.csproj" />
+	</ItemGroup>
 
 </Project>

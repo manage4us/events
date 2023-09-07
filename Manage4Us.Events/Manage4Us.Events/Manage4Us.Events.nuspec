@@ -10,7 +10,7 @@
         <description>$Desc$</description>
         <summary>$Summary$</summary>
         <releaseNotes>$ReleaseNotes$</releaseNotes>
-        <copyright>Copyright ©  2016</copyright>
+        <copyright>Copyright ©  2023</copyright>
         <dependencies />
     </metadata>
 </package>
